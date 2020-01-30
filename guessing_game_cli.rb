@@ -5,10 +5,10 @@ def run_guessing_game
   user_guess = gets.chomp
 
   if user_guess == "exit"
-    puts "Goodbye!"
+    p "Goodbye!"
   elsif user_guess.to_i != current_number
-    puts "Sorry! The computer guessed #{current_number}."
+    p "Sorry! The computer guessed #{current_number}."
   else user_guess.to_i == current_number
-    puts "You guess the correct number!"
+    p "You guess the correct number!"
   end
 end
