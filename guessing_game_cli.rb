@@ -9,6 +9,6 @@ def run_guessing_game
   elsif user_guess.to_i != current_number
     puts "Sorry! The computer guessed #{current_number}."
   else user_guess.to_i == current_number
-    puts "You guess the correct number!"
+    puts "You guessed the correct number!"
   end
 end
